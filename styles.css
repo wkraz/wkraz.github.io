@@ -52,3 +52,88 @@ footer {
     font-family: Courier, monospace;
     margin-top: auto;
 }
+
+.typewriter {
+    font-size: 1.5em;
+    margin: 20px 0;
+    min-height: 1.5em;
+    color: red;
+}
+
+.education-card {
+    display: block;
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    text-decoration: none;
+}
+
+.education-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.school-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.education-details {
+    flex: 1;
+}
+
+.education-details h2 {
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+
+.education-details p {
+    margin: 5px 0;
+    color: #ccc;
+}
+
+.semester {
+    margin: 2em 0;
+}
+
+.semester h3 {
+    color: red;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.course-table tr {
+    border-bottom: 1px solid #333;
+}
+
+.course-table tr:last-child {
+    border-bottom: none;
+}
+
+.course-table td {
+    padding: 0.8em 0;
+}
+
+.course-table td:first-child {
+    color: #888;
+    width: 100px;
+    font-family: monospace;
+}
+
+/* Optional: Add hover effect */
+.course-table tr:hover {
+    background-color: #222;
+}
