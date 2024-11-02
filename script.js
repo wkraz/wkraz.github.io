@@ -20,7 +20,7 @@ function type() {
         return;
     }
 
-    const typingSpeed = isDeleting ? 50 : 100;
+    const typingSpeed = isDeleting ? 30 : 60;
     setTimeout(type, typingSpeed);
 }
 
