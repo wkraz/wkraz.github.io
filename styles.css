@@ -31,10 +31,11 @@ header {
     display: flex;
     gap: 0.5rem;
     align-items: center;
+    color: white;
 }
 
 .typewriter {
-    color: white;
+    color: white !important;
     font-size: 1.2rem;
     min-width: 200px;
 }
@@ -108,10 +109,14 @@ footer {
 }
 
 .semester {
-    margin: 2em 0;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 900px;
+    margin: 2em auto;
+}
+
+.semester h3 {
+    text-align: center;
+    color: red;
+    margin-bottom: 1em;
 }
 
 .education-intro {
@@ -129,15 +134,51 @@ footer {
 .course-table {
     width: 100%;
     border-collapse: collapse;
-    margin: 1em 0;
+    margin: 1em auto;
+    text-align: center;
+    border: 1px solid #333;
 }
 
 .course-table td {
-    padding: 0.8em 0;
+    padding: 0.8em;
+    border: 1px solid #333;
 }
 
 .course-table td:first-child {
     color: #888;
     width: 120px;
     font-family: monospace;
+    background-color: #1a1a1a;
+}
+
+.text ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+.text ul li a:hover {
+    text-decoration: underline;
+}
+
+.resume-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: red;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-family: Courier, monospace;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
 }
