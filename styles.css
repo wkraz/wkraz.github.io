@@ -10,130 +10,95 @@ body {
 }
 
 header {
-    max-width: 75%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #111111;
-    font-family: Courier, monospace;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
-.text {
-    padding: 20px;
-    max-width: 75%;
-    margin: 0 auto;
-}
-
-a {
-    color: red;
+.name-link {
+    font-size: 2rem;
+    color: white;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-.download-btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: transparent;
-    color: red;
-    text-decoration: none;
-    border: 1px solid red;
-    border-radius: 5px;
-    font-family: Courier, monospace;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #111111;
-    font-family: Courier, monospace;
-    margin-top: auto;
+.title-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }
 
 .typewriter {
-    font-size: 1.5em;
-    margin: 20px 0;
-    min-height: 1.5em;
     color: red;
+    font-size: 1.2rem;
+    min-width: 200px;
 }
 
 .education-card {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
     background-color: #222;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px 0;
-    transition: transform 0.3s ease;
+    padding: 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s;
 }
 
 .education-card:hover {
     transform: translateY(-5px);
-    text-decoration: none;
-}
-
-.education-content {
-    display: flex;
-    align-items: center;
-    gap: 20px;
 }
 
 .school-logo {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
 }
 
-.education-details {
-    flex: 1;
+.education-info h2 {
+    margin: 0;
+    color: white;
 }
 
-.education-details h2 {
-    margin: 0 0 10px 0;
-    color: #fff;
-}
-
-.education-details p {
-    margin: 5px 0;
-    color: #ccc;
-}
-
-.semester {
-    margin: 2em 0;
-}
-
-.semester h3 {
-    color: red;
-    margin-bottom: 1em;
-    font-size: 1.2em;
-}
-
-.course-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.course-table tr {
-    border-bottom: 1px solid #333;
-}
-
-.course-table tr:last-child {
-    border-bottom: none;
-}
-
-.course-table td {
-    padding: 0.8em 0;
-}
-
-.course-table td:first-child {
+.education-info p {
+    margin: 0.5rem 0;
     color: #888;
-    width: 100px;
-    font-family: monospace;
 }
 
-/* Optional: Add hover effect */
-.course-table tr:hover {
-    background-color: #222;
+footer {
+    margin-top: auto;
+    padding: 2rem;
+    background-color: #111111;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.social-links a {
+    color: #888;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: red;
+}
+
+.intro {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    text-align: center;
+    line-height: 1.6;
 }
