@@ -1,0 +1,54 @@
+body {
+    font-family: Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #fff;
+}
+
+header {
+    max-width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111111;
+    font-family: Courier, monospace;
+}
+
+.text {
+    padding: 20px;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: red;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-family: Courier, monospace;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111111;
+    font-family: Courier, monospace;
+    margin-top: auto;
+}
