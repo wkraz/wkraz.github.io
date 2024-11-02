@@ -13,14 +13,14 @@ function type() {
     }
 
     if (!isDeleting && charIndex === text.length) {
-        setTimeout(() => isDeleting = true, 1500);
+        setTimeout(() => isDeleting = true, 2000);
     } else if (isDeleting && charIndex === 0) {
         isDeleting = false;
-        setTimeout(type, 500);
+        setTimeout(type, 1000);
         return;
     }
 
-    const typingSpeed = isDeleting ? 100 : 200;
+    const typingSpeed = isDeleting ? 50 : 100;
     setTimeout(type, typingSpeed);
 }
 

@@ -8,11 +8,21 @@
   </head>
   <body>
     <header>
-      <h1><a href="/">← Back to Home</a></h1>
+      <div class="header-content">
+        <a href="/" class="name-link">Will Krzastek</a>
+        <div class="title-container">
+          <span>💻</span>
+          <span id="typewriter" class="typewriter"></span>
+        </div>
+      </div>
     </header>
     
     <div class="text">
       <h1>Notre Dame</h1>
+      <div class="education-intro">
+        <p>At Notre Dame, I've focused on building a strong foundation in computer engineering while pursuing my interests in robotics and autonomous systems. I've had the opportunity to work on challenging projects and serve as a TA for discrete mathematics.</p>
+      </div>
+      
       <!-- Course listings -->
       <div class="semester">
         <h3>Fall 2023</h3>
@@ -65,8 +75,8 @@
           </tbody>
         </table>
       </div>
-    </div>
-    <div class="semester"></div>
+
+      <div class="semester">
         <h3>Summer 2024</h3>
         <table class="course-table">
           <tbody>
@@ -81,7 +91,8 @@
           </tbody>
         </table>
       </div>
-    <div class="semester">
+
+      <div class="semester">
         <h3>Fall 2024</h3>
         <table class="course-table">
           <tbody>
@@ -108,9 +119,11 @@
           </tbody>
         </table>
       </div>
+    </div>
     
     <footer>
       <p>&copy; 2024 Will Krzastek. All rights reserved.</p>
     </footer>
+    <script src="../script.js"></script>
   </body>
 </html> 
